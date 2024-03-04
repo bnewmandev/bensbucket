@@ -1,0 +1,36 @@
+{
+    "version": "4.1.2",
+    "description": "VPK edit cli",
+    "homepage": "https://github.com/craftablescience/VPKEdit",
+    "license": "MIT",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/craftablescience/VPKEdit/releases/download/v4.1.2/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip",
+            "hash": "E69AAA1E5480CD7C50CBC8CAC6B829B05ADECECEF9FE34DB2F30801AE48CE95F"
+        },
+        "32bit": {
+            "url": "https://github.com/craftablescience/VPKEdit/releases/download/v4.1.2/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip",
+            "hash": "E69AAA1E5480CD7C50CBC8CAC6B829B05ADECECEF9FE34DB2F30801AE48CE95F"
+        },
+        "arm64": {
+            "url": "https://github.com/craftablescience/VPKEdit/releases/download/v4.1.2/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip",
+            "hash": "E69AAA1E5480CD7C50CBC8CAC6B829B05ADECECEF9FE34DB2F30801AE48CE95F"
+        }
+    },
+    "bin": "vpkeditcli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/craftablescience/VPKEdit/releases/download/v$version/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/craftablescience/VPKEdit/releases/download/v$version/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/craftablescience/VPKEdit/releases/download/v$version/VPKEdit-Windows-Standalone-CLI-msvc-Release.zip"
+            }
+        }
+    }
+}
